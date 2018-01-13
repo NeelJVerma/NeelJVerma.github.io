@@ -126,6 +126,30 @@ header nav {
 }
 
 #introduction #second {
+	padding-bottom: 10px;
+}
+
+#introduction #third {
+	padding-bottom: 10px;
+}
+
+#introduction #third a {
+	color: #000;
+	text-decoration: none;
+}
+
+#introduction #third a:hover {
+	transition: color 0.3s ease;
+  color: #F33547;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+#introduction #fourth {
+	padding-bottom: 10px;
+}
+
+#introduction #fifth {
 	padding-bottom: 30px;
 }
 
@@ -366,8 +390,7 @@ header nav {
 
 /* media queries */
 
-@media(max-width: 768px) {
-	header #header-left,
+@media screen and (max-width: 768px) {
 	header nav,
 	header nav li,
 	.boxes .box {
@@ -403,6 +426,10 @@ header nav {
 		font-size: 34px;
 	}
 
+	.boxes #boxes-footer {
+		font-size: 34px;
+	}
+
 	.boxes #first-link,
 	.boxes #second-link,
 	.boxes #third-link,
@@ -415,7 +442,71 @@ header nav {
 		margin-bottom: 20px;
 	}
 
+  #contact #contact-heading h1 {
+		font-size: 35px;
+	}
+
 	#contact #contact-heading p {
 		font-size: 21px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	header nav,
+	header nav li {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	header a {
+		font-size: 13px;
+	}
+
+	header li {
+		padding: 0 5px 0 0px;
+	}
+
+	header {
+		padding-bottom: 20px;
+	}
+
+	#pre-intro h2 {
+		font-size: 40px;
+		margin-top: 407px;
+	}
+
+	#pre-intro p {
+		font-size: 23px;
+	}
+
+	#pre-intro #overlay {
+		width: 230px;
+		height: 230px;
+		margin-top: 50px;
+	}
+
+	#introduction h1 {
+		font-size: 30px;
+	}
+
+	#introduction p {
+		font-size: 17px;
+	}
+
+	.boxes h1 {
+		font-size: 30px;
+	}
+
+	.boxes #boxes-footer {
+		font-size: 20px;
+	}
+
+	#contact #contact-heading h1 {
+		font-size: 30px;
+	}
+
+	#contact #contact-heading p {
+		font-size: 18px;
 	}
 }
