@@ -113,9 +113,9 @@ header nav {
 }
 
 #introduction h1 {
-	margin-top: 20px;
+	margin-top: 50px;
 	font-size: 50px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	text-transform: uppercase;
 }
 
@@ -132,6 +132,7 @@ header nav {
 #introduction #resume {
   border: none;
   padding: 15px 32px;
+	margin-bottom: 30px;
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
@@ -171,7 +172,7 @@ header nav {
 .boxes #boxes-heading {
 	font-size: 37px;
 	text-transform: uppercase;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-bottom: 20px;
 }
 
@@ -316,7 +317,7 @@ header nav {
 	font-size: 30px;
 	text-transform: uppercase;
 	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 /* contact */
@@ -336,14 +337,14 @@ header nav {
 }
 
 #contact #contact-heading h1 {
-	font-size: 37px;
+	font-size: 50px;
 	text-transform: uppercase;
-	margin-top: 10px;
+	margin-top: 50px;
 	margin-bottom: 20px;
 }
 
 #contact #contact-heading p {
-	font-size: 20px;
+	font-size: 30px;
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
@@ -415,6 +416,6 @@ header nav {
 	}
 
 	#contact #contact-heading p {
-		font-size: 17px;
+		font-size: 21px;
 	}
 }
